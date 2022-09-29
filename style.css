@@ -379,7 +379,7 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background: #006292;
     padding: 15px;
     margin: 15px 0;
     color: #fff;
@@ -392,6 +392,10 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+}
+
+form ::placeholder{
+    color: #E1E1E1;
 }
 
 .copyright {
