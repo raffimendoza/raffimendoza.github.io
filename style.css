@@ -163,6 +163,11 @@ nav ul li a:hover::after{
     display: none;
 }
 
+.tab-contents p{
+    padding: 5px;
+    padding-left: 10px;
+}
+
 .tab-contents.active-tab{
     display: block;
 }
@@ -175,6 +180,32 @@ nav ul li a:hover::after{
 #education ul li{
     font-size: 30px;
 }
+
+.program-icons{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    font-size: 50px;
+}
+
+.program{
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.program p{
+    font-size: 18px;
+}
+
+.program img {
+    width: 40px;
+
+}
+
+#skills img{
+    pointer-events: none;
+    user-select: none;
+}
 /* ------------ services ------------ */
 #services{
     padding: 30px 0;
@@ -184,13 +215,13 @@ nav ul li a:hover::after{
 .services-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 25px;
     margin-top: 50px;
 }
 
 .services-list div{
     background-color: #0b5e86;
-    padding: 40px;
+    padding: 20px;
     font-size: 13px;
     font-weight: 300;
     border-right: 10px;
@@ -230,12 +261,12 @@ nav ul li a:hover::after{
 .work-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 25px;
     margin-top: 50px;
 }
 
 .work {
-    border-radius: 10px;
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
 }
@@ -433,7 +464,8 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: #0094b6;
+        background: #006292;
+        opacity: 0.9;
         position: fixed;
         top: 0;
         right: -200px;
